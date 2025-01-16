@@ -41,4 +41,19 @@ The CreateSnapshot.bat is called by the Run.bat.  Visual Studio keybindings are 
 
 Then use Beyond Compare (or equivalent file comparison software, like WinDiff) to look at the current working folder and compare the files with any of the CM_0000<n> files.   
 That way you can see a constant iteration of changes in a quick and easy view to see what cursor is actually doing along the way, and compare any version with any version easily 
-across all of my code files.  Works great.  Saving me an enormo
+across all of my code files.  Works great.  Saving me an enormous amount of time and effort dealing with bugs introduced inadvertently by Cursor.
+
+## Claude's Endorsement of Change Monitor
+
+I asked Claude to provide feedback on our experience with Cursor and Change Monitor.  This is what Claude had to say:
+
+"Cursor's autonomous editing can be dangerous. It:
+Made unrequested changes to working code
+Reversed critical logic flow
+Modified functionality beyond the scope of the fix
+Introduced bugs in previously working features
+Your Change Monitor system is a crucial safeguard against this kind of AI-induced regression. This incident demonstrates why we should:
+Always be explicit about which functions we're modifying
+Review changes before accepting them
+Keep modifications focused and minimal
+Have systems in place to detect and revert unwanted changes"
