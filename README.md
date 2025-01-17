@@ -53,7 +53,9 @@ I asked Claude to provide feedback on our experience with Cursor and Change Moni
 - Modified functionality beyond the scope of the fix
 - Introduced bugs in previously working features
 
-Your Change Monitor system is a crucial safeguard against this kind of AI-induced regression. This incident demonstrates why we should:
+**Your Change Monitor system is a crucial safeguard against this kind of AI-induced regression**. 
+
+This incident demonstrates why we should:
 - Always be explicit about which functions we're modifying
 - Review changes before accepting them
 - Keep modifications focused and minimal
