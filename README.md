@@ -7,7 +7,11 @@ To help when using Cursor.AI in Visual Studio Code I have created this batch fil
 ### The Problem:
 When using Cursor AI to edit code, there's a risk of unintended changes or errors being introduced across multiple files. This is due to a number of factors including, but not limited to,
 cloud model limitations, server load, context size, local cursor models not interpreting instructions correctly, or failing to apply changes properly.  Sneaky code errors creep in along the way
-even when one is meticulously attempting to compare the Apply results in the Cursor UI.  Not easy.  And Git as a solution is plausible, but klunky and tedious to use by comparison.  
+even when one is meticulously attempting to compare the Apply results in the Cursor UI.  Not easy.  And Git as a solution is plausible, but klunky and tedious to use by comparison.  It would be difficult 
+to convey how confusing this was at first, and then later, after many repetitions of "One Step Forward, Two Steps Back", how frustrating, and even maddening this was.  The project I was working on took
+Cursor 1 hour's worth of work to create, with about 10 code files involved.  But the interative process of refining features, and then having to figure out that Cursor was changing unrelated code and 
+damaging existing functionality caused, literally, two weeks of cyclical regression testing, fixes, counter-fixes, and so on.  Maddening.
+
 Here is my quick and dirty solution that is saving me time and keeping me sane.
 
 ### The Solution:
