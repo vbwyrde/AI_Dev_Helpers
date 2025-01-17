@@ -38,9 +38,7 @@ In summary, this batch file automates the process of creating a snapshot of spec
 
 The CreateSnapshot.bat is called by the Run.bat.  Visual Studio keybindings are used to call the Run.bat while coding using ctrl+shift+m  ... you do have to click the combination twice to kick off the batch file in the terminal, but that's a small price to pay for this convenience.
 
-Then use Beyond Compare (or equivalent file comparison software, like WinDiff) to look at the current working folder and compare the files with any of the CM_0000<n> files.   
-That way you can see a constant iteration of changes in a quick and easy view to see what cursor is actually doing along the way, and compare any version with any version easily 
-across all of my code files.  Works great.  Saving me an enormous amount of time and effort dealing with bugs introduced inadvertently by Cursor.
+Then use Beyond Compare (or equivalent file comparison software, like WinDiff) to look at the current working folder and compare the files with any of the CM_0000<n> files. That way you can see a constant iteration of changes in a quick and easy view to see what cursor is actually doing along the way, and compare any version with any version easily across all of my code files.  Works great.  Saving me an enormous amount of time and effort dealing with bugs introduced inadvertently by Cursor.
 
 ## Claude's Endorsement of Change Monitor
 
