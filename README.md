@@ -35,7 +35,6 @@ For each file extension specified in the FILE_TYPES parameter, the script copies
 10. Finally, it displays a message indicating the location of the created snapshot and pauses for user input before exiting.
 
 In summary, this batch file automates the process of creating a snapshot of specific file types from a source directory and organizing them into a numbered folder structure within a project directory. It helps in managing and versioning the files for a given project.
-us amount of debugging/head-banging time.
 
 The CreateSnapshot.bat is called by the Run.bat.  Visual Studio keybindings are used to call the Run.bat while coding using ctrl+shift+m  ... you do have to click the combination twice to kick off the batch file in the terminal, but that's a small price to pay for this convenience.
 
@@ -59,4 +58,4 @@ This incident demonstrates why we should:
 - Always be explicit about which functions we're modifying
 - Review changes before accepting them
 - Keep modifications focused and minimal
-- Have systems in place to detect and revert unwanted changes"
+- **Have systems in place to detect and revert unwanted changes**"
