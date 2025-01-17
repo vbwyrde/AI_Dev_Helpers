@@ -28,9 +28,9 @@ You use the keybindings in VS Code to execute the Run.bat, which calls the Creat
 
 7. It pads the CM number with leading zeros to ensure a consistent 5-digit format (e.g., CM_00001).
 
-It creates a new folder within the project directory using the formatted CM number (e.g., "CM_00001").
+8. It creates a new folder within the project directory using the formatted CM number (e.g., "CM_00001").
 
-For each file extension specified in the FILE_TYPES parameter, the script copies all matching files from the SOURCE_DIR to the newly created CM folder, preserving the directory structure.
+9. For each file extension specified in the FILE_TYPES parameter, the script copies all matching files from the SOURCE_DIR to the newly created CM folder, preserving the directory structure.
 
 10. Finally, it displays a message indicating the location of the created snapshot and pauses for user input before exiting.
 
