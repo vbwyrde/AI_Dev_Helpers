@@ -48,10 +48,15 @@ across all of my code files.  Works great.  Saving me an enormous amount of time
 I asked Claude to provide feedback on our experience with Cursor and Change Monitor.  This is what Claude had to say:
 
 "Cursor's autonomous editing can be dangerous. It:
-Made unrequested changes to working code
-Reversed critical logic flow
-Modified functionality beyond the scope of the fix
-Introduced bugs in previously working features
+
+- Made unrequested changes to working code
+
+- Reversed critical logic flow
+
+- Modified functionality beyond the scope of the fix
+
+- Introduced bugs in previously working features
+
 Your Change Monitor system is a crucial safeguard against this kind of AI-induced regression. This incident demonstrates why we should:
 Always be explicit about which functions we're modifying
 Review changes before accepting them
